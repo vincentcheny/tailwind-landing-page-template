@@ -2,6 +2,7 @@
   "name": "simple-light-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@react-three/drei": "^5.3.1",

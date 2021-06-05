@@ -46,6 +46,12 @@ function FeaturesBlocks() {
 
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <img className="w-16 h-16 p-1 -mt-1 mb-2" src={require('../images/user.svg').default} width="64" height="64" />
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Eric Lo</h4>
+              <p className="text-gray-600 text-center">Associate professor</p>
+            </div>
+
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+              <img className="w-16 h-16 p-1 -mt-1 mb-2" src={require('../images/user.svg').default} width="64" height="64" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Ben Kao</h4>
               <p className="text-gray-600 text-center">Associate professor</p>
             </div>

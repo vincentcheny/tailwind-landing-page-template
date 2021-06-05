@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from "react-router-dom";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { createHashHistory } from "history";
+
+const history = createHashHistory();
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router history={history}>
       <App />
     </Router>
   </React.StrictMode>,

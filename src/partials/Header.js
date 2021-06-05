@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 function Header() {
 
@@ -21,13 +22,13 @@ function Header() {
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
-                <a href="#about" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About</a>
+                <HashLink smooth to="#about" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About</HashLink>
               </li>
               <li>
-                <a href="#people" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">People</a>
+                <HashLink smooth to="#people" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">People</HashLink>
               </li>
               <li>
-                <a href="#publication" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Publication</a>
+                <HashLink smooth to="#publication" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Publication</HashLink>
               </li>
               <li>
                 <a href="https://github.com/everest-project/everest" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">

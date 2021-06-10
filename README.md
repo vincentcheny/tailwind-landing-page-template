@@ -5,7 +5,7 @@
 ## Usage
 
 ```bash
-git pull https://github.com/vincentcheny/tailwind-landing-page-template.git
+git clone https://github.com/vincentcheny/tailwind-landing-page-template.git
 npm install # To install the dependencies package
 npm start # Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
 ```
@@ -24,4 +24,4 @@ The site consists of 5 major components, and each component can be edited in the
 
 2. Rename `build` to `docs`.
 3. Replace the `docs` folder in [Everest](https://github.com/everest-project/everest) with it.
-4. Commit and push Everest.
+4. Commit and push to Everest.

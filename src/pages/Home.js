@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import HeroHome from '../partials/HeroHome';
-import FeaturesHome from '../partials/Features';
-import FeaturesBlocks from '../partials/FeaturesBlocks';
-import Testimonials from '../partials/Testimonials';
+import Title from '../partials/Title';
+import About from '../partials/About';
+import People from '../partials/People';
+import Publication from '../partials/Publication';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 
@@ -19,10 +19,10 @@ function Home() {
       <main className="flex-grow">
 
         {/*  Page sections */}
-        <HeroHome />
-        <FeaturesHome />
-        <FeaturesBlocks />
-        <Testimonials />
+        <Title />
+        <About />
+        <People />
+        <Publication />
         {/* <Newsletter /> */}
 
       </main>

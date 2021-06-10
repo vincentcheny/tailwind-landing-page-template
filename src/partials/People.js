@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FeaturesBlocks() {
+function People() {
   
   return (
     <section className="relative">
@@ -63,4 +63,4 @@ function FeaturesBlocks() {
   );
 }
 
-export default FeaturesBlocks;
+export default People;

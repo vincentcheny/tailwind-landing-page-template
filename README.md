@@ -12,9 +12,7 @@ npm start # Runs the app in the development mode. Open http://localhost:3000 to 
 
 ## Edit
 
-![](https://i.imgur.com/iSB5YH8_d.webp?maxwidth=760&fidelity=grand)
-
-The site consists of 5 major components, and each component can be edited in the `.js`file with the same name as orange labels above in `src/partials/`.
+The site consists of 5 major components, and each component can be edited in the `.js`file with corresponding name in `src/partials/`.
 
 ## Publish
 

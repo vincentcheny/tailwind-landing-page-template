@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import Model from './Model';
 
-function HeroHome() {
+function Title() {
   return (
     <section className="relative">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 md:pt-40">
@@ -35,10 +35,9 @@ function HeroHome() {
             </div >
           </div >
         </div >
-        <div id="table-spreadsheet" style={{ position: "relative", width: 900, height: 400 }}><iframe src="https://ethercalc.net/r9equ6qogax3"  style={{ position: "relative", width: 900, height: 400 }}/></div>
       </div >
     </section>
   );
 }
 
-export default HeroHome;
+export default Title;

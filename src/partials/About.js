@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
-function Features() {
+function About() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
   return (
     <section className="relative">
@@ -69,4 +69,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default About;

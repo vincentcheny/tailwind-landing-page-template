@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Testimonials() {
+function Publication() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -16,4 +16,4 @@ function Testimonials() {
   );
 }
 
-export default Testimonials;
+export default Publication;

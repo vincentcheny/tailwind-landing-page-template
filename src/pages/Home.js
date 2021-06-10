@@ -5,8 +5,8 @@ import Title from '../partials/Title';
 import About from '../partials/About';
 import People from '../partials/People';
 import Publication from '../partials/Publication';
-import Newsletter from '../partials/Newsletter';
-import Footer from '../partials/Footer';
+// import Newsletter from '../partials/Newsletter';
+// import Footer from '../partials/Footer';
 
 function Home() {
   return (
